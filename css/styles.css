@@ -3,9 +3,9 @@
     padding: 0;
     font-family: "Roboto", sans-serif;
     font-size: 14px;
-} 
+}
 body{
-    background-color: #EDEDED;
+    background-color: #ffffff;
     color: #324950;
 }
 a{
@@ -15,12 +15,13 @@ a{
 header{
     min-height: 113px;
     max-width: 1127px;
-    margin: 10px auto;
+   /*  margin: 10px auto;*/
     overflow-x: hidden;
 
 }
 .img-head-logo{
     height: 90px;
+    margin: 5px;
 }
 section{
     overflow-x: hidden;
@@ -37,7 +38,38 @@ section#posts{
     background-size: cover;
     background-position: center;
 }
-section#activities{ 
+
+section#banner_tomato{ 
+    background: url("../images/image7.png");
+    margin-top: 100px;
+    background-size: cover;
+    background-position: center;
+
+height: 480px;
+width: 100%;
+margin: 0;
+}
+
+.card-tom-tag{
+    background-color: #FFFFFF;
+    color: #57984C;
+    width: 100%;
+    height: 60px;
+    
+
+}
+
+.decorationcontent{
+height: 1px;
+
+    background-color: #000000;
+border-radius: 10px;
+}
+
+.breeding_tomato{
+    background-color: #FFFAFA;
+}
+section#activities {
     background: #EDEDED;
     margin-top: 100px;
     
@@ -99,3 +131,26 @@ footer .nav-item{
     max-height: 100px;
     height: 100%;
 }
+
+
+section#content_tomato {
+    background: #FCF0F0;
+    
+}
+.content_tomato *{
+    font-family: "Roboto Slab", sans-serif;
+    
+}
+
+.card-tom{
+    height: 321px;
+}
+.img-tomato {
+    height: 252px;
+    background: #fff;
+    overflow: hidden;
+}
+.img-tomato img{
+    width: 100%;
+    height: auto;
+    } 
