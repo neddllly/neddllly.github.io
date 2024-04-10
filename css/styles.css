@@ -19,6 +19,9 @@ header{
     overflow-x: hidden;
 
 }
+.img-head-logo{
+    height: 90px;
+}
 section{
     overflow-x: hidden;
 }
