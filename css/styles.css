@@ -8,6 +8,7 @@ body{
     background-color: #ffffff;
     color: #324950;
 }
+
 a{
     text-decoration: none;
     color: #000;
@@ -41,6 +42,16 @@ section#posts{
 
 section#banner_tomato{ 
     background: url("../images/image7.png");
+    margin-top: 100px;
+    background-size: cover;
+    background-position: center;
+
+height: 480px;
+width: 100%;
+margin: 0;
+}
+section#banner_contactus{ 
+    background: url("../images/field.png");
     margin-top: 100px;
     background-size: cover;
     background-position: center;
@@ -137,10 +148,22 @@ section#content_tomato {
     background: #FCF0F0;
     
 }
-.content_tomato * , .content_tomato_one *{
+
+
+
+section#content_contactus {
+    background: #F7F7F7;
+    
+}
+
+
+
+.content_tomato * , .content_tomato_one * , .content_contactus * , #contactus_info * {
     font-family: "Roboto Slab", sans-serif;
     
 }
+
+
 
 section#content_tomato_one{
     background: #F7F7F7;
@@ -180,6 +203,15 @@ section#content_tomato_one{
     color: #3b6733; 
 }
 
+.btnsendform{
+    background-color: #57984C;  
+    border: none;
+    border-radius:  50px;
+    color: #fbfbfb; 
+    cursor: pointer; 
+    width: 100%;
+}
+
 .textcolorgreen{
     color: #57984C;
 }
@@ -203,6 +235,11 @@ li::marker {
   }
 
   .tomatoone_img img{
+    max-width: 100%;
+    height: auto;
+  }
+
+  .captcha_img img{
     max-width: 100%;
     height: auto;
   }
