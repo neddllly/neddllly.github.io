@@ -150,7 +150,10 @@ section#content_tomato {
     
 }
 
-
+section#content_grapefruit {
+    background: #fcf6f0;
+    
+}
 
 section#content_contactus {
     background: #F7F7F7;
@@ -183,12 +186,30 @@ section#content_tomato_one{
     width: 100%;
     height: auto;
     } 
-
+    .img-grapefruit {
+        height: 252px;
+        background: #fff;
+        overflow: hidden;
+    }
+    .img-grapefruit img{
+        width: 100%;
+        height: auto;
+        } 
 .textdecorbott{
     border-bottom: 1px solid #57984C;
     color: #57984C;
 }
 
+section#banner_grapefruit{ 
+    background: url("../img/grapefruitBanner.png");
+    margin-top: 100px;
+    background-size: cover;
+    background-position: center;
+
+height: 480px;
+width: 100%;
+margin: 0;
+}
 
 .btnpdf {
     background-color: #f7f7f700;  
