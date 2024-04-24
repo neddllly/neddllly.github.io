@@ -288,3 +288,11 @@ justify-content: center;
 .show{
     transform: translateX(0); 
 }
+
+.small_img{
+    width: 90px;
+}
+
+td, th {
+    vertical-align: middle;
+  }
