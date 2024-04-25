@@ -160,12 +160,14 @@
                   <img :src="'../img/' + product.image" alt="" />
                 </div>
                 <div class="d-flex justify-content-end">
-                  <button onclick="document.location='#'" class="btnpdf my-4 py-2 px-4" @click.prevent="addToCart(product.id)" v-if="!btnVisible">
+                  <a href="#" class="btnpdf my-4 py-2 px-4" @click.prevent="addToCart(product.id)" v-if="!btnVisible">
                     Add to cart
-                  </button>
-                  <button onclick="document.location='contact_us.html'" class="btnpdf my-4 py-2 px-4" v-if="btnVisible">
+                  </a>
+                  
+                  <a href="contact_us.html" class="btnpdf my-4 py-2 px-4" v-if="btnVisible">
                     Go to cart
-                  </button>
+                  </a>
+                  
                 </div>
               </div>
             </div>
